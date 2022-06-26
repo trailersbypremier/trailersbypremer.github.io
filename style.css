@@ -1,34 +1,30 @@
 div.threesixty {
-    position: block;
     width: auto;
     height: auto;
-    padding: 0%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 div.threesixty-title {
     background-color: green;
-    position: relative;
-    z-index: 0;
     width: 100%;
     height: auto;
+    position: relative;
     top: -1rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 div.threesixty-title img {
     width: 40%;
     height: auto;
-    position: relative;
-    top: .5rem;
+    order: 1;
 }
 
 div.threesixty-title h1 {
-    position: relative;
-    padding: .5rem;
     color: white;
-    float: right;
-    font-size: calc(3vw + 2vh + 1vmin);
+    order: 2;
+    padding-right: 2rem;
+    font-size: calc(4vw + 4vh + 1vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 

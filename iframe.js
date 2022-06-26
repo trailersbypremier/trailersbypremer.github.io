@@ -18,6 +18,7 @@ function addElement() {
         </div>
         <img class="noselector" src="https://raw.githubusercontent.com/trailersbypremier/360-images/master/360.png"
             style="width:10%; z-index: 2; transform: translate(0%, -100%); position: absolute;">
+        
         <div class="threesixty-title">
             <img class="noselector"
                 src="https://raw.githubusercontent.com/trailersbypremier/360-images/master/tbp-logo.webp">
