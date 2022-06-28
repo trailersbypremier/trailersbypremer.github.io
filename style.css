@@ -23,7 +23,7 @@ div.threesixty-title img {
 div.threesixty-title h1 {
     color: white;
     order: 1;
-    padding-right: 2rem;
+    padding-left: 2rem;
     text-align: center;
     font-size: calc(4vw + 4vh + 1vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
