@@ -5,28 +5,26 @@ div.threesixty {
 
 div.threesixty-title {
     background-color: green;
-    width: 100%;
+    width: auto;
     height: auto;
     position: relative;
-    top: -1rem;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 div.threesixty-title img {
-    width: 40%;
+    width: 100%;
     height: auto;
     order: 2;
 }
 
 div.threesixty-title h1 {
     color: white;
-    order: 1;
-    padding-left: 2rem;
-    text-align: center;
-    font-size: calc(4vw + 4vh + 1vmin);
+    order: 2;
+    font-size: calc(3vw + 3vh + 1vmin);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-self: center;
 }
 
 .noselector {
