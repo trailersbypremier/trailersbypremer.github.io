@@ -19,7 +19,7 @@ function addElement() {
     var node = document.getElementById('node-id');
 
     var html = `<div class="threesixty" style="display: flex;">
-                    <div style="max-width: 75%; z-index: 1; position: block;" class="cloudimage-360" id="` + model + `"
+                    <div style="max-width: 75%; min-width: 65%; z-index: 1; position: block;" class="cloudimage-360" id="` + model + `"
                         data-folder="https://raw.githubusercontent.com/trailersbypremier/360-images/master/` + model + `/"
                         data-filename-x="{index}.jpg" data-amount-x="8" data-play-once="true" data-autoplay="true" data-speed="30"
                         data-bottom-circle="true" data-hide-360-logo="false" data-stop-at-edges="false" data-pointer-zoom="none">
